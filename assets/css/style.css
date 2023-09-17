@@ -3521,13 +3521,13 @@ img {
 --------------------------------------------------------------*/
 .hero {
   position: relative;
-  height: 680px;
+  height: 100vh;
   overflow: hidden;
   /** slider controls **/
   /*** hero slider animation ***/
 }
 
-@media (max-width: 991px) {
+/* @media (max-width: 991px) {
   .hero {
     height: 450px;
   }
@@ -3537,10 +3537,10 @@ img {
   .hero {
     min-height: 420px;
   }
-}
+} */
 
 .hero .slide {
-  height: 680px;
+  height: 100vh;
   position: relative;
   background-repeat: no-repeat;
   position: relative;
@@ -3548,13 +3548,13 @@ img {
 
 @media (max-width: 991px) {
   .hero .slide {
-    height: 450px;
+    height: 100vh;
   }
 }
 
 @media (max-width: 767px) {
   .hero .slide {
-    min-height: 420px;
+    min-height: 100vh;
   }
 }
 
@@ -4309,6 +4309,7 @@ img {
   /* min-height: 58px; */
   border-bottom: 2px solid #0546b8;
   background-color: #969696;
+  z-index: 10;
 }
 
 .testimonials-slider .client-pic img{
@@ -4944,7 +4945,7 @@ img {
   font-size: 0.8rem;
   font-weight: normal;
   display: block;
-  color: #0546b8;
+  color: #fff;
   text-transform: uppercase;
 }
 
@@ -5005,7 +5006,7 @@ img {
 }
 
 .contact-form-s1 .wpcf7-submit:hover {
-  background-color: #d4a900;
+  background-color: #020b12;
 }
 
 .contact-women {
@@ -8262,6 +8263,18 @@ img {
 .mtg-container{
   display: none;
 }
+.actual-contact-info, .contact-form-container{
+  margin-left: 0px;
+  width: 50%;
+}
+@media (max-width: 1200px){
+  .ceo-details{
+    width: 100%;
+    display: flex;
+    align-items: end;
+    gap: 15px;
+  }
+}
 @media (max-width: 991px){
   .site-header .navigation > .container{
     width: 720px;
@@ -8279,6 +8292,12 @@ img {
   align-items: end;
   gap: 15px;
 }
+.actual-contact-info, .contact-form-container{
+  width: 100%;
+}
+.contact-section-contact-box{
+  width: 100%;
+}
 }
 @media (max-width: 767px) {
   .site-header .navigation > .container{
@@ -8288,7 +8307,7 @@ img {
 }
 @media (max-width: 576px){
   .site-header .navigation > .container{
-    width: 9%;
+    width: 90%;
     padding: 5px 0;
   }
   .ceo-details{
@@ -8296,7 +8315,7 @@ img {
   }
   .ceo-details img{
     width: 100%;
-    height: fit-content;
+    height: 500px;
   }
 }
 /*# sourceMappingURL=style.css.map */
