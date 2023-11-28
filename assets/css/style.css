@@ -3149,8 +3149,8 @@ img {
 }
 
 .header-style-3 #navbar > ul > li > .theme-btn{
-  margin-top: 18px;
-  padding: 10px 15px;
+  margin-top: 21px;
+  padding: 7px 20px;
 }
 
 .header-style-3 #navbar > ul > li > .theme-btn:hover::before{
@@ -8414,6 +8414,9 @@ Technology
   background-color: #0546b8;
   transition: all 300ms;
 }
+.technology .contact-validation-active input{
+  padding: 15px;
+}
 
 /* .technology .download-button p:hover i {
   color: #0546b8;
@@ -8482,10 +8485,66 @@ Technology
   width: 100%;
   height: 100%;
 }
+.technology .info-box-outer .grid i{
+  color: #051829;
+  font-size: 28px;
+}
+.technology .info-box-outer .grid i:hover{
+  color: #0546b8;
+}
+
+.technology .info-box-outer .grid a{
+  color: #051829;
+}
+.technology .info-box-outer .grid a:hover{
+  color: #0546b8;
+}
+.technology .info-box-outer .grid ul{
+  list-style-type: none;
+  display: flex;
+  gap: 15px;
+}
+.technology .contact-validation-active{
+  margin-top: 30px;
+}
+.technology .contact-validation-active button{
+  border: 2px solid #0546b8;
+  color: white !important;
+  padding: 7px 25px;
+}
+.technology .contact-map iframe{
+  width: 100%;
+  height: 450px;
+  
+}
+.site-footer .upper-footer .container .row{
+  display: flex;
+  margin: 0;
+}
+.site-footer .upper-footer .container .row .footer_container .quick-links-widget{
+  width: fit-content;
+  margin: 0 auto;
+}
+.site-footer .upper-footer .container .row .footer_container .social-widget{
+  width: fit-content;
+  float: right;
+}
+.site-footer .upper-footer .container .row .footer_container{
+  width: 33%;
+}
+.site-footer .upper-footer{
+  padding: 50px 0 30px;
+}
+
+/* #020b12 */
 
 @media (max-width: 767px) {
   .technology .page-title{
     margin-top: 0px;
+  }
+  .technology .contact-map iframe{
+    /* margin-top: 40px; */
+    height: 350px;
   }
   .technology .page-title .container{
     margin-left: 15px;
@@ -8515,4 +8574,29 @@ Technology
     vertical-align: auto;
 
   }
+  .technology .contact-validation-active{
+    margin-top: 20px;
+  }
+  .site-footer .upper-footer{
+    padding: 40px 0 30px;
+  }
+  .site-footer .upper-footer .container .row{
+    display: block;
+    margin: 0;
+  }
+  .site-footer .upper-footer .container .row .footer_container{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .site-footer .upper-footer .container .row .footer_container .quick-links-widget{
+    width: fit-content;
+    margin: 0;
+  }
+  .site-footer .upper-footer .container .row .footer_container .social-widget{
+    width: fit-content;
+    float: none;
+  }
+  /* .site-footer .upper-footer .container .row .footer_container:last-of-type{
+    margin-bottom: 0;
+  } */
 }
