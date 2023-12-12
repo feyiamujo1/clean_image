@@ -8282,7 +8282,7 @@ img {
   margin: 0;
 }
 .header-style-3 .site-logo img{
-  height: 60px;
+  height: 45px;
 }
 .back-to-top i, .slider-arrow-s1 .owl-controls .owl-nav .owl-prev, .slider-arrow-s1 .owl-controls .owl-nav .owl-next{
   color: white;
@@ -8617,6 +8617,9 @@ Technology
   .site-footer .upper-footer .container .row .footer_container .social-widget{
     width: fit-content;
     float: none;
+  }
+  .header-style-3 .site-logo img{
+    height: 35px;
   }
   /* .site-footer .upper-footer .container .row .footer_container:last-of-type{
     margin-bottom: 0;
